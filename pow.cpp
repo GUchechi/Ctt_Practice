@@ -26,8 +26,6 @@ int main()
     cout << "What is the exponent? ";
     cin >> exponent;
     print_pow(base, exponent);
-    print_pow(2, 4);
-    print_pow(5, 3);
 
     return 0;
 }

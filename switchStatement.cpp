@@ -24,7 +24,23 @@ int main() {
             break;
     }
 
-    
+    enum seasons { SPRING, SUMMER, FALL, WINTER };
+    seasons currentSeason = WINTER;
+
+    switch (currentSeason) {
+        case SPRING:
+            cout << "It's spring." << endl;
+            break;
+        case SUMMER:
+            cout << "It's summer, stay cool." << endl;
+            break;
+        case FALL:
+            cout << "It's fall, stay warm." << endl;
+            break;
+        case WINTER:
+            cout << "It's winter, stay warm." << endl;
+            break;
+    }
 
     return 0;
 }

@@ -4,23 +4,25 @@ using namespace std;
 
 int main()
 {
+
+    system("chcp 65001"); // enable UTF-8 mode on Windows terminal
+
     string password = "secret";
     string guess;
 
     do
     {
         cout << "Enter password: ";
-        // cin >> guess;
-        getline(cin, guess);
+        cin >> guess;
 
         if (guess != password)
         {
-            cout << "Incorrect Password! Try again." << endl;
+            cout << "❌ Incorrect Password! Try again." << endl;
         }
 
     } while (guess != password);
 
-    cout << "Correct Password, Access Granted!" << endl;
+    cout << "✅ Correct Password, Access Granted! 🟢" << endl;
 
     return 0;
 }

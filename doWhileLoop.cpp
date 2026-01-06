@@ -10,7 +10,8 @@ int main()
     do
     {
         cout << "Enter password: ";
-        cin >> guess;
+        // cin >> guess;
+        getline(cin, guess);
 
         if (guess != password)
         {

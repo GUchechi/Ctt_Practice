@@ -32,6 +32,9 @@ int main()
     }
 
     print_array(guesses, count);
+
+    cout << "You entered: " << count << " integers." << endl;
+    
     cin.clear(); // Clear any error flags
     cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
 

@@ -6,6 +6,7 @@ using namespace std;
 #include <cstdlib>
 #include <ctime>
 
+
 void print_array( array< int, 251> arr, int size)
 {
     for (int i = 0; i < size; i++)

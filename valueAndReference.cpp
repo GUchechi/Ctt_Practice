@@ -9,7 +9,7 @@ void swapByValue(int a, int b) {
 }
 
 // Function to swap two integers by reference
-void swapByReference(int& a, int& b) {
+void swapByReference(int &a, int &b) {
     int temp = a;
     a = b;
     b = temp;

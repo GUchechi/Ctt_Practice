@@ -25,7 +25,7 @@ void print_array(const int data[], int size)
 int main()
 {
     int arr[] = {1, 2, 3, 4, 5};
-    print_array(arr, 5);
+    utilz::print_array(arr, 5);
 
     return 0;
 }

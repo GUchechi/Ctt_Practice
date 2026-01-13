@@ -1,6 +1,18 @@
 #include <iostream>
 using namespace std;
 
+namespace utilz
+{
+    void print_array(const int data[], int size)
+    {
+        for (int i = 0; i < size; i++)
+        {
+            cout << data[i] << "\t";
+        }
+        cout << endl;
+    }
+}
+
 void print_array(const int data[], int size)
 {
     for (int i = 0; i < size; i++)

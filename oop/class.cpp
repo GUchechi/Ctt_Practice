@@ -49,8 +49,16 @@ int main()
     users.push_back(user3);
 
     User new_user;
-    new_user.first_name = "Joy";
-    new_user.last_name = "Smith";
+
+    cout << "Enter first name: ";
+    cin >> new_user.first_name;
+
+
+    cout << "Enter last name: ";
+    cin >> new_user.last_name;
+    
+    cout << endl;
+
 
     if (add_user_if_not_exists(users, new_user))
     {

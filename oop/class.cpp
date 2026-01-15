@@ -50,6 +50,7 @@ int main()
 
     User new_user;
 
+
     cout << "Enter first name: ";
     cin >> new_user.first_name;
 

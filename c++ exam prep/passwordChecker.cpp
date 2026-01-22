@@ -22,7 +22,7 @@ public:
         else
         {
             cout << "Wrong password! Access denied." << endl;
-            exit(0); // exit program immediately
+            exit(0); 
         }
     }
 

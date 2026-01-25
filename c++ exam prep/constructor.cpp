@@ -87,8 +87,8 @@ int main()
     Month m2("November");
 
     m0.print_data();
-    // m1.print_data();
-    // m2.print_data();
+    m1.print_data();
+    m2.print_data();
 
     return 0;
 }

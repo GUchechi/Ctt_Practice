@@ -17,12 +17,12 @@ int main()
 
         if (guess != password)
         {
-            cout << "❌ Incorrect Password! Try again." << endl;
+            cout << " Incorrect Password! Try again." << endl;
         }
 
     } while (guess != password);
 
-    cout << "✅ Correct Password, Access Granted! 🟢" << endl;
+    cout << " Correct Password, Access Granted! 🟢" << endl;
 
     return 0;
 }

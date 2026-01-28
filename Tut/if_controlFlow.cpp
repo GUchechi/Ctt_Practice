@@ -32,20 +32,7 @@ int main()
         cout << "No, you're Incorrect!" << endl;
     }
 
-    /* 
-    // logical
-    // AND operator: &&
-    // OR operator: ||
-    // NOT operator: !
-
-    //comparison
-    // equal to: ==
-    // not equal to: !=
-    // greater than: >
-    // less than: <
-    // greater than or equal to: >=
-    // less than or equal to: <=
-    */
+   
 
     return 0;
 }

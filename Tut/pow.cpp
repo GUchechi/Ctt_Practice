@@ -6,8 +6,8 @@ double power (double base, int exponent) {
   
     double result = 1;
     for (int i = 0; i < exponent; i++) {
-        result = result * base;
-        // result *= base;
+        // result = result * base;
+        result *= base;
     }
     return result;
 }
